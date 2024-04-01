@@ -1,2 +1,0 @@
-# Myproject
-HCL mini project
