@@ -1,0 +1,150 @@
+* {
+    margin: 5px;
+    padding: 0; 
+    border-radius: 55px;
+    
+  }
+  
+  .navigation {
+    margin-top: 20px;
+    font-family: var(--font1);
+    background-color: lightpink;
+    /* height: 74px;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .nav-left {
+    display: flex;
+    border-radius: inherit;
+  }
+  
+  .nav-left span {
+    font-size: 35px;
+    padding-top: 10px;
+    border-radius: 55px;
+  }
+  
+  .nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+    padding-bottom: 23px;
+  }
+  
+  .nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-left ul li a {
+    text-decoration: none;
+    color: inkblue;
+  }
+  
+  .nav-left ul li a:hover {
+    color: ink blue;
+    font-weight: bolder;
+  }
+  
+  .content {
+    height: 100%;
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+  }
+  
+  .content::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+  }
+  
+  .content-left {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 49px;
+    z-index: 1;
+  }
+  
+  .content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+    background-color:inkblue;
+  }
+  
+  .content-right img {
+    height: 355px;
+    border: 2px solid inkblue;
+    border-radius: 200px;
+    
+  }
+  
+  .home-articles {
+    padding: 18px;
+    background-color: inkblue;
+    margin-top: -22px;
+    position: relative;
+  }
+  
+  .year-box {
+    position: absolute;  
+    right: 0px;
+    top: 100px;
+    width: 234px;
+    height: 255px;
+    font-size: 18px;
+  }
+  
+  .year-box div {
+    margin: 12px 0px;
+  }
+  
+  .home-article {
+    display: flex;
+    margin: 25px;
+  }
+  
+  .home-article img {
+    width: 300px;
+    height: 250;
+  }
+  
+  .home-article-content {
+    align-self: center;
+    padding: 25px;
+    text-align: left;
+  }
+  
+  .home-article-content a {
+    text-decoration: none;
+    color: inkblue;
+  }
+  /* .home-articles{} */
+  .footer {
+    height: 50px;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: inkblue;
+    flex-direction: column;
+  }
+  
+  .footer a {
+    color: blue;
+  }
+  
